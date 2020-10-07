@@ -15,5 +15,11 @@ namespace Enkelt_login_system
                 Password = password;
                 Count++;
             }
+
+        public override string ToString()
+        {
+            return Name + " has password " + Password;
+        }
+
         }      
 }
