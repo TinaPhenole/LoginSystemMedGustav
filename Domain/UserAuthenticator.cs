@@ -11,7 +11,10 @@ namespace Enkelt_login_system
             users.Add(newUser);
         }
 
-        
+        public List<User> GetUsers()
+        {
+            return users;
+        }
 
         public bool TryValidateUser(string username, string password)
         {
